@@ -13,7 +13,44 @@
     <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
 
-
+	<style>
+        /* Ensure sections have appropriate padding */
+        .hero-wrap {
+            position: relative;
+            color: white;
+            text-align: center;
+            padding: 50px 0; /* Adjusted padding */
+            background-size: cover;
+            background-position: center;
+        }
+        .hero-wrap .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .hero-wrap .container {
+            position: relative;
+            z-index: 2;
+        }
+        .ftco-section {
+            padding: 4rem 0; /* Adjusted padding */
+        }
+        @media (max-width: 767px) {
+            .ftco-section {
+                padding: 2rem 0; /* Reduced padding on smaller screens */
+            }
+            .contact-info .col-md-6 {
+                margin-bottom: 1rem; /* Adjusted margin for better spacing */
+            }
+        }
+        .contact-info .box {
+            margin-bottom: 1rem; /* Ensure spacing between boxes */
+        }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	 <!-- Navigation bar -->
@@ -45,16 +82,19 @@
 			</div>
 		</div>
 	</section>
+	
+
+
 
 	<!-- Education section -->
-    <section class="ftco-section ftco-no-pb js-fullheight" id="resume-section">
+    <section class="ftco-section resume-section ftco-no-pbt" id="resume-section">
     	<div class="container">
     		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Education</h1>
-            <h2 class="mb-4">Education</h2>
-          </div>
-        </div>
+          		<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Education</h1>
+					<h2 class="mb-4">Education</h2>
+          		</div>
+        	</div>
     		<div class="row">
     			<div class="col-md-12">
     				<div class="resume-wrap ftco-animate">
@@ -70,68 +110,67 @@
     			</div>
     		</div>
     	</div>
-    </section>
+    </section>	
+	
+	
 <!-- Contact section -->
-	
-	
+<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+	<div class="container">
+		<div class="row justify-content-center  pb-3">
+		<div class="col-md-7 heading-section text-center ftco-animate">
+		  <h1 class="big big-2">Contact</h1>
+		  <h2 class="mb-4">Contact Me</h2>
+		</div>
+	  </div>
 
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
-      <div class="container">
-      	<div class="row justify-content-center  pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-          </div>
-        </div>
-
-        <div class="row d-flex contact-info mb-5">
-			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
-				<div class="align-self-stretch box p-4 text-center">
-					<div class="icon d-flex align-items-center justify-content-center">
-						<a href="tel://9946307722">
-							<span class="fa-solid fa-phone"></span>
-						</a>
-					</div>
-				  <h3>+91 9946307722</a></h3>
+	  <div class="row d-flex contact-info mb-5">
+		  <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			  <div class="align-self-stretch box p-4 text-center">
+				  <div class="icon d-flex align-items-center justify-content-center">
+					  <a href="tel://9946307722">
+						  <span class="fa-solid fa-phone"></span>
+					  </a>
+				  </div>
+				<h3>+91 9946307722</a></h3>
+			  </div>
+		  </div>
+		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			<div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <a href="https://www.linkedin.com/in/ksmuralikrishna/">
+					  <span class="fa-brands fa-linkedin"></span>
+				  </a>
 				</div>
+				<h3 class="mb-4">linkedIn</h3>
 			</div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-					<a href="https://www.linkedin.com/in/ksmuralikrishna/">
-						<span class="fa-brands fa-linkedin"></span>
-					</a>
-          		</div>
-          		<h3 class="mb-4">linkedIn</h3>
-	          </div>
-          </div>
+		</div>
 
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-					<a href="mailto:ksmuralikrishnaaa@gmail.com">
-          				<span class="fa-regular fa-envelope"></span>
-					</a>
-          		</div>
-	            <p><a href="mailto:ksmuralikrishnaaa@gmail.com">ksmuralikrishnaaa@gmail.com</a></p>
-	          </div>
-          </div>
-          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
-          	<div class="align-self-stretch box p-4 text-center">
-          		<div class="icon d-flex align-items-center justify-content-center">
-					<a href="https://github.com/ksmuralikrishna">
-						<span class="fa-brands fa-github"></span>
-					</a>
-          		</div>
-          		<h3 class="mb-4">Github</h3>
-	          </div>
-          </div>
-        </div>
-      </div>
-    </section>
-		
+		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			<div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <a href="mailto:ksmuralikrishnaaa@gmail.com">
+						<span class="fa-regular fa-envelope"></span>
+				  </a>
+				</div>
+			  <p><a href="mailto:ksmuralikrishnaaa@gmail.com">ksmuralikrishnaaa@gmail.com</a></p>
+			</div>
+		</div>
+		<div class="col-md-6 col-lg-3 d-flex ftco-animate">
+			<div class="align-self-stretch box p-4 text-center">
+				<div class="icon d-flex align-items-center justify-content-center">
+				  <a href="https://github.com/ksmuralikrishna">
+					  <span class="fa-brands fa-github"></span>
+				  </a>
+				</div>
+				<h3 class="mb-4">Github</h3>
+			</div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
   <!-- loader -->
-  <!-- <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div> -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
 
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
